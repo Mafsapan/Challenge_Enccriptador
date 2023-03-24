@@ -1,0 +1,110 @@
+*{
+    background: rgba(243, 245, 252, 1);
+    Font-family: 'Inter';
+    Font-size: 32px;
+    Line-height: 48px;
+    color: #0A3871;
+}
+
+main{
+    display: flex;
+    justify-content:space-between;
+    margin: 0% 2%;
+}
+
+.logo{
+    position: absolute;
+    margin: 40px 0 0 40px;
+    height: 40px;
+}
+
+.texto-entrada{
+    resize: none;
+    background: none;
+    border: none;
+    color: #0A3871;
+    padding: 35px;
+    margin-left: 200px;
+    margin-top: 110px;
+}
+
+.texto-entrada::placeholder{
+    color: #0A3871;
+}
+
+.texto-entrada:focus{
+    outline: none;
+}
+
+.texto-salida{
+    resize: none;
+    display: grid;
+    position: relative;
+    background: white;
+    background-image: url(imagenes/muneco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: rgba(73, 80, 87, 1);
+    padding: 35px 35px 15px;
+    margin: 30px 150px 0 0;
+    border-style: solid;
+    border-color: white;
+    border-width: 15px 0 85px 0;
+}
+
+.texto-salida:focus{
+    outline: none;
+}
+
+.nota{
+    font-size: 16px;
+    margin: 0 0 0 220px;
+}
+
+.nota::before{
+    content: url(imagenes/bi_exclamation-circle-fill.png);
+    vertical-align: middle;
+}
+
+.btn-encriptar{
+    background: #0A3871;
+    color: white;
+    font-family: 'comfortaa';
+    font-weight: bold;
+    padding: 12px 130px;
+    border: none;
+    border-radius: 25px;
+    font-size: 22px;
+    margin-left: 260px;
+}
+
+.btn-desencriptar{
+    background: #D8DFE8;
+    color: #0A3871;
+    font-family: 'comfortaa';
+    font-weight: bold;
+    padding: 10px 120px;
+    border-color: #0A3871;
+    border-style: solid;
+    border-radius: 25px;
+    font-size: 22px;
+    margin-left: 60px;
+}
+
+.btn-copiar{
+    position: relative;
+    background: none;
+    color: #0A3871;
+    font-family: 'comfortaa';
+    font-weight: bold;
+    padding: 10px 130px;
+    border-color: #0A3871;
+    border-style: solid;
+    border-radius: 25px;
+    font-size: 22px;
+    bottom: 80px;
+    left: 50px;
+}
+
